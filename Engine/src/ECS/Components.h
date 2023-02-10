@@ -92,13 +92,16 @@ namespace KGCA41B
 	struct SoundListener : public Component
 	{
 
-	};
-	
-	
+	};	
 
 	struct SoundGenerator : public Component
 	{
 		queue<SoundQueue> sound_queue_list;
+	};
+
+	struct UIComponent : public Component
+	{
+
 	};
 
 }
